@@ -1,0 +1,61 @@
+#fab_button {
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+.up-arrow {
+  cursor: pointer;
+  margin: opx;
+}
+.down-arrow {
+  cursor: pointer;
+  margin: 0px;
+}
+.sort_icon {
+  display: flex;
+  flex-direction: column;
+}
+.tool {
+  display: grid;
+  height: 30px;
+  width: 11px;
+  margin-left: 40px;
+}
+.cardGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 300px);
+  justify-content: center;
+  row-gap: 10px;
+  column-gap: 40px;
+  /* padding: 20px; */
+}
+
+@media screen and (max-width: 1040px) {
+  .cardGrid {
+    grid-template-columns: 308px 308px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .cardGrid {
+    grid-template-columns: 1fr;
+    padding: 40px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .cardGrid {
+    grid-template-columns: 1fr;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.card_row {
+  display: flex;
+}
+.card_head {
+  display: flex;
+  margin: 30px;
+}
+.card_list {
+  margin: 0px;
+}

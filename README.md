@@ -29,3 +29,8 @@ To run this project:
 * Clone the repository
 * Type npm install in the terminal
 ```
+
+## Authorization Credentials
+
+email -ashiq55@gmail.com
+password- Ashiq123456@

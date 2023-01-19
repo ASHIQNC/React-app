@@ -1,0 +1,14 @@
+.loader_card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+/* 
+.img_post {
+  width: 100px;
+  height: 100px;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+
+  display: inline-block;
+} */

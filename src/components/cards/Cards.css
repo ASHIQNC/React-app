@@ -1,0 +1,38 @@
+.cards {
+  background-image: linear-gradient(to top, #acbfeb, #efec99);
+  border: 1px solid rgb(238, 235, 235);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 6px;
+}
+.card_icons {
+  width: 100%;
+  display: flex;
+  margin-bottom: 20px;
+  justify-content: space-between;
+}
+.card_content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card_text {
+  margin: 20px;
+}
+.card_buttons {
+  margin: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.card_image {
+  height: 100px;
+  width: 100px;
+  margin-top: 15px;
+  border-radius: 50%;
+}
+.dialogDelete {
+  color: black;
+}
